@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",
+    "@vercel/speed-insights": "latest",
     "react-router-dom": "^7.1.3",
     "lucide-react": "^0.482.0",
     "react": "^18.3.1",
