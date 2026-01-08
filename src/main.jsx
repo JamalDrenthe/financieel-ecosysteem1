@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import App from './App.jsx';
+import ChatWidget from './ChatWidget.jsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
+      <ChatWidget />
       <SpeedInsights />
     </BrowserRouter>
   </React.StrictMode>
