@@ -1043,7 +1043,7 @@ const PitchPage = ({ lang = 'nl', proMode = false }) => {
 
       {/* Research & Kiyosaki */}
       <div className={`overflow-hidden relative p-6 rounded-2xl border border-slate-800 bg-slate-900/70 md:p-8 ${neonWrap}`}>
-        <div className="pointer-events-none absolute -inset-0.5 rounded-3xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500 opacity-40 blur-lg animate-[spin_10s_linear_infinite]" />
+        <div className="pointer-events-none absolute -inset-0.5 rounded-3xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500 opacity-40 blur-lg" />
         {neonOverlay}
         <div className="relative z-10 space-y-4">
           <p className="text-slate-200">{t.researchIntro}</p>
@@ -1057,7 +1057,7 @@ const PitchPage = ({ lang = 'nl', proMode = false }) => {
 
       {/* Insight */}
       <div className={`overflow-hidden relative p-6 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 md:p-8 ${neonWrap}`}>
-        <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 via-indigo-500 to-fuchsia-500 opacity-30 blur-xl animate-[spin_14s_linear_infinite]" />
+        <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 via-indigo-500 to-fuchsia-500 opacity-30 blur-xl" />
         {neonOverlay}
         <div className="relative z-10 space-y-3">
           <h2 className="text-xl font-bold text-emerald-200">{t.insightTitle}</h2>
@@ -1073,7 +1073,7 @@ const PitchPage = ({ lang = 'nl', proMode = false }) => {
 
       {/* TGC Hero */}
       <div className={`overflow-hidden relative p-8 text-center bg-gradient-to-br rounded-2xl border border-cyan-500/40 from-cyan-900/30 to-slate-900 ${neonWrap}`}>
-        <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 opacity-40 blur-lg animate-[spin_12s_linear_infinite]" />
+        <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 opacity-40 blur-lg" />
         {neonOverlay}
         <div className="relative z-10 space-y-4">
           <h2 className="text-2xl font-black text-cyan-200 md:text-3xl">{t.tgcTitle}</h2>
@@ -1112,7 +1112,7 @@ const PitchPage = ({ lang = 'nl', proMode = false }) => {
       {/* Form + AI option */}
       <div className="grid lg:grid-cols-[1.3fr_0.7fr] gap-6">
         <form onSubmit={handleSubmit} className={`overflow-hidden relative p-6 rounded-2xl border border-slate-800 bg-slate-900/80 ${neonWrap}`}>
-          <div className="pointer-events-none absolute -inset-0.5 rounded-3xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500 opacity-40 blur-lg animate-[spin_16s_linear_infinite]" />
+          <div className="pointer-events-none absolute -inset-0.5 rounded-3xl bg-gradient-to-r from-cyan-500 via-indigo-500 to-fuchsia-500 opacity-40 blur-lg" />
           {neonOverlay}
           <div className="relative z-10 space-y-5">
             <div>
@@ -1290,7 +1290,7 @@ const PitchPage = ({ lang = 'nl', proMode = false }) => {
         </form>
 
         <div className="flex overflow-hidden relative flex-col justify-center items-center p-6 text-center rounded-2xl border border-emerald-500/30 bg-emerald-500/10">
-          <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-indigo-400 via-purple-500 to-cyan-400 opacity-35 blur-xl animate-[spin_18s_linear_infinite]" />
+          <div className="pointer-events-none absolute -inset-1 rounded-3xl bg-gradient-to-r from-indigo-400 via-purple-500 to-cyan-400 opacity-35 blur-xl" />
           <div className="relative z-10 space-y-4">
             <Cpu size={48} className="text-emerald-300" />
             <p className="font-semibold text-emerald-100">{t.formAlt}</p>
